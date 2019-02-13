@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-shared-configuration>
+    <!--
+This file contains additional configuration written by modules in the NetBeans IDE.
+The configuration is intended to be shared among all the users of project and
+therefore it is assumed to be part of version control checkout.
+Without this configuration present, some functionality in the IDE may be limited or fail altogether.
+-->
+    <properties xmlns="http://www.netbeans.org/ns/maven-properties-data/1">
+        <!--
+Properties that influence various parts of the IDE, especially code formatting and the like. 
+You can copy and paste the single properties, into the pom.xml file and the IDE will pick them up.
+That way multiple projects can share the same settings (useful for formatting rules for example).
+Any value defined here will override the pom.xml file value but is only applicable to the current project.
+-->
+        <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>1.7-web</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>
+        <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>Tomcat</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>
+        <netbeans.hint.license>default</netbeans.hint.license>
+        <org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder>WEB-INF/resources/vendor</org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder>
+        <org-netbeans-modules-css-prep.less_2e_mappings>/less:/css</org-netbeans-modules-css-prep.less_2e_mappings>
+        <org-netbeans-modules-css-prep.less_2e_enabled>false</org-netbeans-modules-css-prep.less_2e_enabled>
+        <org-netbeans-modules-css-prep.sass_2e_enabled>false</org-netbeans-modules-css-prep.sass_2e_enabled>
+        <org-netbeans-modules-css-prep.sass_2e_compiler_2e_options/>
+        <org-netbeans-modules-css-prep.less_2e_compiler_2e_options/>
+        <org-netbeans-modules-css-prep.sass_2e_mappings>/scss:/css</org-netbeans-modules-css-prep.sass_2e_mappings>
+        <org-netbeans-modules-javascript2-requirejs.enabled>true</org-netbeans-modules-javascript2-requirejs.enabled>
+    </properties>
+    <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1">
+        <library name="bootbox.js" version="4.4.0">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootbox.js/bootbox.js" path="bootbox.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootbox.js/bootbox.min.js" path="bootbox.min.js"/>
+        </library>
+        <library name="bootstrap-datepicker" version="1.8.0">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" path="css/bootstrap-datepicker.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css.map" path="css/bootstrap-datepicker.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" path="css/bootstrap-datepicker.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" path="css/bootstrap-datepicker.standalone.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" path="css/bootstrap-datepicker.standalone.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" path="css/bootstrap-datepicker.standalone.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" path="css/bootstrap-datepicker3.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" path="css/bootstrap-datepicker3.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" path="css/bootstrap-datepicker3.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" path="css/bootstrap-datepicker3.standalone.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" path="css/bootstrap-datepicker3.standalone.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" path="css/bootstrap-datepicker3.standalone.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" path="js/bootstrap-datepicker.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js" path="js/bootstrap-datepicker.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" path="locales/bootstrap-datepicker-en-CA.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" path="locales/bootstrap-datepicker.ar-tn.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" path="locales/bootstrap-datepicker.ar.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" path="locales/bootstrap-datepicker.az.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" path="locales/bootstrap-datepicker.bg.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" path="locales/bootstrap-datepicker.bn.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" path="locales/bootstrap-datepicker.br.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" path="locales/bootstrap-datepicker.bs.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" path="locales/bootstrap-datepicker.ca.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" path="locales/bootstrap-datepicker.cs.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" path="locales/bootstrap-datepicker.cy.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" path="locales/bootstrap-datepicker.da.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" path="locales/bootstrap-datepicker.de.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" path="locales/bootstrap-datepicker.el.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" path="locales/bootstrap-datepicker.en-AU.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" path="locales/bootstrap-datepicker.en-CA.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" path="locales/bootstrap-datepicker.en-GB.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" path="locales/bootstrap-datepicker.en-IE.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" path="locales/bootstrap-datepicker.en-NZ.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" path="locales/bootstrap-datepicker.en-ZA.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" path="locales/bootstrap-datepicker.eo.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" path="locales/bootstrap-datepicker.es.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" path="locales/bootstrap-datepicker.et.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" path="locales/bootstrap-datepicker.eu.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" path="locales/bootstrap-datepicker.fa.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" path="locales/bootstrap-datepicker.fi.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" path="locales/bootstrap-datepicker.fo.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" path="locales/bootstrap-datepicker.fr-CH.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" path="locales/bootstrap-datepicker.fr.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" path="locales/bootstrap-datepicker.gl.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" path="locales/bootstrap-datepicker.he.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" path="locales/bootstrap-datepicker.hi.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" path="locales/bootstrap-datepicker.hr.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" path="locales/bootstrap-datepicker.hu.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" path="locales/bootstrap-datepicker.hy.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" path="locales/bootstrap-datepicker.id.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" path="locales/bootstrap-datepicker.is.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" path="locales/bootstrap-datepicker.it-CH.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" path="locales/bootstrap-datepicker.it.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" path="locales/bootstrap-datepicker.ja.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" path="locales/bootstrap-datepicker.ka.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" path="locales/bootstrap-datepicker.kh.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" path="locales/bootstrap-datepicker.kk.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" path="locales/bootstrap-datepicker.km.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" path="locales/bootstrap-datepicker.ko.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" path="locales/bootstrap-datepicker.kr.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" path="locales/bootstrap-datepicker.lt.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" path="locales/bootstrap-datepicker.lv.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" path="locales/bootstrap-datepicker.me.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" path="locales/bootstrap-datepicker.mk.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" path="locales/bootstrap-datepicker.mn.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" path="locales/bootstrap-datepicker.ms.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" path="locales/bootstrap-datepicker.nl-BE.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" path="locales/bootstrap-datepicker.nl.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" path="locales/bootstrap-datepicker.no.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" path="locales/bootstrap-datepicker.oc.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" path="locales/bootstrap-datepicker.pl.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" path="locales/bootstrap-datepicker.pt-BR.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" path="locales/bootstrap-datepicker.pt.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" path="locales/bootstrap-datepicker.ro.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" path="locales/bootstrap-datepicker.rs-latin.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" path="locales/bootstrap-datepicker.rs.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" path="locales/bootstrap-datepicker.ru.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" path="locales/bootstrap-datepicker.si.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" path="locales/bootstrap-datepicker.sk.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" path="locales/bootstrap-datepicker.sl.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" path="locales/bootstrap-datepicker.sq.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" path="locales/bootstrap-datepicker.sr-latin.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" path="locales/bootstrap-datepicker.sr.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" path="locales/bootstrap-datepicker.sv.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" path="locales/bootstrap-datepicker.sw.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" path="locales/bootstrap-datepicker.ta.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" path="locales/bootstrap-datepicker.tg.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" path="locales/bootstrap-datepicker.th.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" path="locales/bootstrap-datepicker.tk.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" path="locales/bootstrap-datepicker.tr.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" path="locales/bootstrap-datepicker.uk.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" path="locales/bootstrap-datepicker.uz-cyrl.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" path="locales/bootstrap-datepicker.uz-latn.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" path="locales/bootstrap-datepicker.vi.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" path="locales/bootstrap-datepicker.zh-CN.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" path="locales/bootstrap-datepicker.zh-TW.min.js"/>
+        </library>
+        <library name="bootstrap-datetimepicker" version="4.17.47">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.css" path="css/bootstrap-datetimepicker-standalone.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.min.css" path="css/bootstrap-datetimepicker-standalone.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.min.css.map" path="css/bootstrap-datetimepicker-standalone.min.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" path="css/bootstrap-datetimepicker.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" path="css/bootstrap-datetimepicker.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" path="js/bootstrap-datetimepicker.min.js"/>
+        </library>
+        <library name="bootstrap-submenu" version="2.0.4">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-submenu/css/bootstrap-submenu.css" path="css/bootstrap-submenu.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-submenu/css/bootstrap-submenu.css.map" path="css/bootstrap-submenu.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-submenu/css/bootstrap-submenu.min.css" path="css/bootstrap-submenu.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-submenu/css/bootstrap-submenu.min.css.map" path="css/bootstrap-submenu.min.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-submenu/js/bootstrap-submenu.js" path="js/bootstrap-submenu.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/bootstrap-submenu/js/bootstrap-submenu.min.js" path="js/bootstrap-submenu.min.js"/>
+        </library>
+        <library name="font-awesome" version="4.7.0">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/css/font-awesome.css" path="css/font-awesome.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/css/font-awesome.css.map" path="css/font-awesome.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/css/font-awesome.min.css" path="css/font-awesome.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/fonts/FontAwesome.otf" path="fonts/FontAwesome.otf"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/fonts/fontawesome-webfont.eot" path="fonts/fontawesome-webfont.eot"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/fonts/fontawesome-webfont.svg" path="fonts/fontawesome-webfont.svg"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/fonts/fontawesome-webfont.ttf" path="fonts/fontawesome-webfont.ttf"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/fonts/fontawesome-webfont.woff" path="fonts/fontawesome-webfont.woff"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/font-awesome/fonts/fontawesome-webfont.woff2" path="fonts/fontawesome-webfont.woff2"/>
+        </library>
+        <library name="jquery" version="3.3.1">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/core.js" path="core.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/jquery.js" path="jquery.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/jquery.min.js" path="jquery.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/jquery.min.map" path="jquery.min.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/jquery.slim.js" path="jquery.slim.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/jquery.slim.min.js" path="jquery.slim.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/jquery/jquery.slim.min.map" path="jquery.slim.min.map"/>
+        </library>
+        <library name="moment.js" version="2.24.0">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/af.js" path="locale/af.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar-dz.js" path="locale/ar-dz.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar-kw.js" path="locale/ar-kw.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar-ly.js" path="locale/ar-ly.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar-ma.js" path="locale/ar-ma.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar-sa.js" path="locale/ar-sa.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar-tn.js" path="locale/ar-tn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ar.js" path="locale/ar.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/az.js" path="locale/az.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/be.js" path="locale/be.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/bg.js" path="locale/bg.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/bm.js" path="locale/bm.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/bn.js" path="locale/bn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/bo.js" path="locale/bo.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/br.js" path="locale/br.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/bs.js" path="locale/bs.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ca.js" path="locale/ca.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/cs.js" path="locale/cs.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/cv.js" path="locale/cv.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/cy.js" path="locale/cy.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/da.js" path="locale/da.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/de-at.js" path="locale/de-at.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/de-ch.js" path="locale/de-ch.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/de.js" path="locale/de.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/dv.js" path="locale/dv.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/el.js" path="locale/el.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-au.js" path="locale/en-au.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-ca.js" path="locale/en-ca.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-gb.js" path="locale/en-gb.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-ie.js" path="locale/en-ie.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-il.js" path="locale/en-il.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-nz.js" path="locale/en-nz.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/en-SG.js" path="locale/en-SG.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/eo.js" path="locale/eo.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/es-do.js" path="locale/es-do.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/es-us.js" path="locale/es-us.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/es.js" path="locale/es.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/et.js" path="locale/et.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/eu.js" path="locale/eu.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fa.js" path="locale/fa.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fi.js" path="locale/fi.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fo.js" path="locale/fo.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fr-ca.js" path="locale/fr-ca.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fr-ch.js" path="locale/fr-ch.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fr.js" path="locale/fr.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/fy.js" path="locale/fy.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ga.js" path="locale/ga.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/gd.js" path="locale/gd.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/gl.js" path="locale/gl.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/gom-latn.js" path="locale/gom-latn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/gu.js" path="locale/gu.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/he.js" path="locale/he.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/hi.js" path="locale/hi.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/hr.js" path="locale/hr.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/hu.js" path="locale/hu.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/hy-am.js" path="locale/hy-am.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/id.js" path="locale/id.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/is.js" path="locale/is.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/it-ch.js" path="locale/it-ch.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/it.js" path="locale/it.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ja.js" path="locale/ja.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/jv.js" path="locale/jv.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ka.js" path="locale/ka.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/kk.js" path="locale/kk.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/km.js" path="locale/km.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/kn.js" path="locale/kn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ko.js" path="locale/ko.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ku.js" path="locale/ku.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ky.js" path="locale/ky.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/lb.js" path="locale/lb.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/lo.js" path="locale/lo.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/lt.js" path="locale/lt.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/lv.js" path="locale/lv.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/me.js" path="locale/me.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/mi.js" path="locale/mi.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/mk.js" path="locale/mk.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ml.js" path="locale/ml.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/mn.js" path="locale/mn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/mr.js" path="locale/mr.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ms-my.js" path="locale/ms-my.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ms.js" path="locale/ms.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/mt.js" path="locale/mt.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/my.js" path="locale/my.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/nb.js" path="locale/nb.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ne.js" path="locale/ne.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/nl-be.js" path="locale/nl-be.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/nl.js" path="locale/nl.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/nn.js" path="locale/nn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/pa-in.js" path="locale/pa-in.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/pl.js" path="locale/pl.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/pt-br.js" path="locale/pt-br.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/pt.js" path="locale/pt.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ro.js" path="locale/ro.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ru.js" path="locale/ru.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sd.js" path="locale/sd.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/se.js" path="locale/se.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/si.js" path="locale/si.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sk.js" path="locale/sk.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sl.js" path="locale/sl.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sq.js" path="locale/sq.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sr-cyrl.js" path="locale/sr-cyrl.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sr.js" path="locale/sr.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ss.js" path="locale/ss.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sv.js" path="locale/sv.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/sw.js" path="locale/sw.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ta.js" path="locale/ta.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/te.js" path="locale/te.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tet.js" path="locale/tet.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tg.js" path="locale/tg.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/th.js" path="locale/th.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tl-ph.js" path="locale/tl-ph.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tlh.js" path="locale/tlh.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tr.js" path="locale/tr.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tzl.js" path="locale/tzl.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tzm-latn.js" path="locale/tzm-latn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/tzm.js" path="locale/tzm.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ug-cn.js" path="locale/ug-cn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/uk.js" path="locale/uk.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/ur.js" path="locale/ur.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/uz-latn.js" path="locale/uz-latn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/uz.js" path="locale/uz.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/vi.js" path="locale/vi.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/x-pseudo.js" path="locale/x-pseudo.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/yo.js" path="locale/yo.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/zh-cn.js" path="locale/zh-cn.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/zh-hk.js" path="locale/zh-hk.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/locale/zh-tw.js" path="locale/zh-tw.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/moment-with-locales.js" path="moment-with-locales.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/moment-with-locales.min.js" path="moment-with-locales.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/moment.js" path="moment.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/moment.js/moment.min.js" path="moment.min.js"/>
+        </library>
+        <library name="twitter-bootstrap" version="3.3.7">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap-theme.css" path="css/bootstrap-theme.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap-theme.css.map" path="css/bootstrap-theme.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap-theme.min.css" path="css/bootstrap-theme.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap-theme.min.css.map" path="css/bootstrap-theme.min.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap.css" path="css/bootstrap.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap.css.map" path="css/bootstrap.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap.min.css" path="css/bootstrap.min.css"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/css/bootstrap.min.css.map" path="css/bootstrap.min.css.map"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/fonts/glyphicons-halflings-regular.eot" path="fonts/glyphicons-halflings-regular.eot"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/fonts/glyphicons-halflings-regular.svg" path="fonts/glyphicons-halflings-regular.svg"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/fonts/glyphicons-halflings-regular.ttf" path="fonts/glyphicons-halflings-regular.ttf"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/fonts/glyphicons-halflings-regular.woff" path="fonts/glyphicons-halflings-regular.woff"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/fonts/glyphicons-halflings-regular.woff2" path="fonts/glyphicons-halflings-regular.woff2"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/js/bootstrap.js" path="js/bootstrap.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/js/bootstrap.min.js" path="js/bootstrap.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/js/npm.js" path="js/npm.js"/>
+        </library>
+        <library name="vue" version="2.5.17">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.common.js" path="vue.common.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.esm.browser.js" path="vue.esm.browser.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.esm.js" path="vue.esm.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.js" path="vue.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.min.js" path="vue.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.common.js" path="vue.runtime.common.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.esm.js" path="vue.runtime.esm.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.js" path="vue.runtime.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.min.js" path="vue.runtime.min.js"/>
+        </library>
+    </libraries>
+</project-shared-configuration>
