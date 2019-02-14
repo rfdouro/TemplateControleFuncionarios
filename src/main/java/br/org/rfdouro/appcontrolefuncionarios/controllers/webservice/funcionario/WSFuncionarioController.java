@@ -57,18 +57,33 @@ public class WSFuncionarioController extends DefaultController {
  }
 
  @VerificaAcesso(value = "funcionario")
+ @PostMapping(value = {"/add"}, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+ public String cadastra(@RequestParam(value = "nome", required = true) String nome,
+         @RequestParam(value = "nascimento", required = true) String nascimento) throws JsonProcessingException {
+  Map<String, String> m = new HashMap<String, String>();
+  String mensagem = "Registro inserido";
+  ObjectMapper om = new ObjectMapper();
+  try {
+   this.setRepositorio();
+   Funcionario f = new Funcionario();
+   f.setNome(nome);
+   f.setNascimento(Util.dateToCalendar(nascimento));
+   this.repositorio.adiciona(f, false);
+  } catch (Exception ex) {
+   mensagem = Util.getMsgErro(ex);
+  }
+  m.put("mensagem", mensagem);
+  return om.writeValueAsString(m);
+ }
+
+ @VerificaAcesso(value = "funcionario")
  @PostMapping(value = {""}, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
- /*public String cadastra(@RequestParam(value = "nome", required = true) String nome,
-         @RequestParam(value = "nascimento", required = true) String nascimento) throws JsonProcessingException {*/
  public String cadastra(@RequestBody Funcionario funcionario) throws JsonProcessingException {
   Map<String, String> m = new HashMap<String, String>();
   String mensagem = "Registro inserido";
   ObjectMapper om = new ObjectMapper();
   try {
    this.setRepositorio();
-   /*Funcionario f = new Funcionario();
-   f.setNome(nome);
-   f.setNascimento(Util.dateToCalendar(nascimento));*/
    this.repositorio.adiciona(funcionario, false);
   } catch (Exception ex) {
    mensagem = Util.getMsgErro(ex);

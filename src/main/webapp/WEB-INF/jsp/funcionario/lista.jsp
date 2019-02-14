@@ -86,7 +86,7 @@
   methods: {
    salva: function () {
     mostraSplash();
-    $.post("ws/funcionario", this.funcionario, function (data) {
+    $.post("ws/funcionario/add", this.funcionario, function (data) {
      console.log(data);
      bootbox.alert({
       title: 'Mensagem',
