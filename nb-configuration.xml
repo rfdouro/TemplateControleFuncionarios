@@ -315,13 +315,18 @@ Any value defined here will override the pom.xml file value but is only applicab
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/js/bootstrap.min.js" path="js/bootstrap.min.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/twitter-bootstrap/js/npm.js" path="js/npm.js"/>
         </library>
-        <library name="vue" version="2.5.17">
+        <library name="vue" version="2.6.6">
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.common.dev.js" path="vue.common.dev.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.common.js" path="vue.common.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.common.prod.js" path="vue.common.prod.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.esm.browser.js" path="vue.esm.browser.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.esm.browser.min.js" path="vue.esm.browser.min.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.esm.js" path="vue.esm.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.js" path="vue.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.min.js" path="vue.min.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.common.dev.js" path="vue.runtime.common.dev.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.common.js" path="vue.runtime.common.js"/>
+            <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.common.prod.js" path="vue.runtime.common.prod.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.esm.js" path="vue.runtime.esm.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.js" path="vue.runtime.js"/>
             <file localPath="src/main/webapp/WEB-INF/resources/vendor/vue/vue.runtime.min.js" path="vue.runtime.min.js"/>

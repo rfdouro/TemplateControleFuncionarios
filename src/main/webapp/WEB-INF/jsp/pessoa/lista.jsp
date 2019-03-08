@@ -6,8 +6,6 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="cp" value="${pageContext.request.servletContext.contextPath}" scope="request" />
-<script src="${cp}/resources/vendor/vue/vue.min.js" type="text/javascript"></script>
-
 <div id="app">
  <h1>Lista de Pessoas</h1>
  <form v-on:submit.prevent="salva()">
